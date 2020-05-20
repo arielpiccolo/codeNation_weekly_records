@@ -1,4 +1,4 @@
-// let create all our variables
+// lets create all our variables
 let space1 = 'X'
 let space2 = 'X'   
 let space3 = 'X'
@@ -10,7 +10,7 @@ let space8 = 'O'
 let space9 = 'X'
 
 
-// alocate x and o into the board using template literal 
+// now alocate Xs and Os into the board using template literal 
 console.log(`   |   |   `);
 console.log(` ${space1} | ${space5} |`);
 console.log(`   |   |   `);

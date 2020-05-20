@@ -1,22 +1,18 @@
-// next birthday variable (stored by the system in seconds)
+// next birthday and birthDate variable (stored by the system in seconds)
 let nextBirthday =  new Date("2020-09-13").getTime();
+let birthDate = new Date("1974-09-13").getTime();
 // we store today's date in a variable
 let today = Date.now();
 // calculate the total amount of seconds in 24hrs to be able to calculate latter.
 const secsIn24Hours = 24 * 60 * 60 * 1000;
 // strore the substracting output, in "seconds", between the two variables in a new variable.
 let timeDiff = nextBirthday - today;
+let timeDiff2 = today - birthDate;
+
+
 //finaly logout the rounded result
 console.log(Math.round(timeDiff / secsIn24Hours));
-
-
-
-
-
-
-
-
-
+console.log(Math.round(timeDiff2 / secsIn24Hours));
 
 
 
