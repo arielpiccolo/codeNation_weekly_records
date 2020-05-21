@@ -1,4 +1,4 @@
-let timeOfTheDay = 18 //(Math.round(Math.random() * 24));
+let timeOfTheDay = (Math.round(Math.random() * 24));
 const person = 'John';
 const workingHours = [10, 11, 12, 13, 14, 15, 16, 17,];
 const workingWeek = ['Monday', 'Tuesday', 'Wedesday', 'Thursday', 'Friday'];
@@ -14,14 +14,12 @@ let todayIs = week[~~(Math.random() * week.length)];
 
 if (workingWeek.includes(todayIs) && workingHours.includes(timeOfTheDay)) {
    console.log(`Today is ${todayIs}, the current time is ${timeOfTheDay} hrs, ${person} is workin at ${placeOfWork}`); 
-  
-} else if (workingWeek.includes(todayIs) && commWork == timeOfTheDay) {
+  } else if (workingWeek.includes(todayIs) && commWork == timeOfTheDay) {
    console.log(`Today is ${todayIs}, the current time is ${timeOfTheDay} hrs, ${person} driving to work`); 
-   
-} else if (workingWeek.includes(todayIs) && commHome == timeOfTheDay) {
+  } else if (workingWeek.includes(todayIs) && commHome == timeOfTheDay) {
    console.log(`Today is ${todayIs}, the current time is ${timeOfTheDay} hrs, ${person} is finishing for the day soon and will be driving back home`); 
 
-} else {
+  } else {
   (workingWeek.includes(todayIs) && commWork == timeOfTheDay) 
    console.log(`Today is ${todayIs}, the current time is ${timeOfTheDay} hrs, ${person} is off work and relaxing at home`); 
-}    
+  }    
