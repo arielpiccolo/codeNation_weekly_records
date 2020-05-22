@@ -10,8 +10,7 @@ console.log(favoritesWebsites.length);
 console.log(favoritesWebsites);
 
 
-//lets remove one item from the array using .pop. 
-
+//lets remove one item from the array using .pop the .pop method the last element from the array 
 favoritesWebsites.pop()
 
 

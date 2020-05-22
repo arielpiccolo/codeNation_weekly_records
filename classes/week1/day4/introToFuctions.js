@@ -16,3 +16,11 @@ const factoral = (n) => {
 } 
 
 console.log(factoral(33));
+
+
+// arrow function
+const sandwitchOrder = (top1, top2, top3, top4, top5) => {
+  console.log(`we are preparing your sandwitch order 1 sandwitch with the following:${top1}, ${top2}, ${top3}, ${top4}, ${top5}`);
+}
+
+sandwitchOrder("ham","cheese","mayo","lattuce","mustard");
