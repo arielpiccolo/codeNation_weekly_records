@@ -1,4 +1,4 @@
-/*
+
 console.log("Hello world from js file");
 
 
@@ -8,7 +8,7 @@ console.log(`my name is ${question}`);
 
 alert(`my name is ${question}`)
 
-*/
+
 
 let question = "How old is Queen Elizabeth II, is she: ";
 
@@ -28,4 +28,11 @@ while( correctAnswer == false ) {
 
 }
 
+/*
 
+let fName = "Ariel";
+let lName = "Piccolo";
+
+//jquerry test drive
+
+*/
