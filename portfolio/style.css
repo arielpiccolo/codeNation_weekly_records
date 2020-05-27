@@ -2,12 +2,24 @@
     then border and then margin push the hole content away from other things
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Inconsolata&family=Indie+Flower&family=Nunito&family=Nunito+Sans&family=Pacifico&family=Quicksand&family=Rubik&family=Special+Elite&family=VT323&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+
+
 body {
     display: inline;
 }
 
 html { 
-    
+    padding: o;
+    margin: 0;
+    top: 0;
+    display: inline;
     background: url(/images/alreadyInMotion.jpeg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -63,7 +75,22 @@ li a:hover:not(.active) {
     color: black;
 }
 
-#WIP {
+
+#WIPh1 {
+    display: inline;
+    font-size: 4rem;
+    padding: 0;
+    margin: 0;
+    line-height: 100px;
+    position: fixed;
+    text-align: center;
+    left: 12%;
+    top: 40%;
+    opacity: 10%;
+
+}
+
+#WIPh5 {
     display: inline;
     font-size: 2rem;
     padding: 0;
@@ -71,13 +98,169 @@ li a:hover:not(.active) {
     line-height: 100px;
     position: fixed;
     text-align: center;
-    left: 12%;
-    top: 10%;
+    left: 30%;
+    top: 55%;
     opacity: 10%;
 
 }
 
-.navBackground {
-    background-image: url(/images/code.jpg);
 
+#dreams {
+    display: inline;
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+    line-height: 100px;
+    position: fixed;
+    text-align: center;
+    left: 15%;
+    top: 10%;
+    color: #588DA8;
+    font-family: 'Pacifico', cursive;  
+    margin-left: 1rem;
+    letter-spacing:3px;
+    animation: text-flicker 3s linear infinite;
 }
+  
+#offset {
+    animation: letter-flicker 5s linear infinite;
+}
+  
+@keyframes text-flicker {
+    0% {
+      opacity:0.1;
+      text-shadow: 0px 0px 100px rgb(248, 4, 4);
+    }
+    
+    2% {
+      opacity:1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+    8% {
+      opacity:0.1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+    9% {
+      opacity:1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+    12% {
+      opacity:0.1;
+      text-shadow: 0px 0px rgba(242, 22, 22, 1);
+    }
+    20% {
+      opacity:1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+    }
+    25% {
+      opacity:0.3;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+    }
+    30% {
+      opacity:1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+    }
+    
+    70% {
+      opacity:0.7;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+    }
+    
+    72% {
+      opacity:0.2;
+      text-shadow:0px 0px 29px rgba(242, 22, 22, 1)
+    }
+    
+    77% {
+      opacity:.9;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+    }
+    100% {
+      opacity:.9;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+    }
+}
+  
+@keyframes border-flicker {
+    0% {
+      opacity:0.1;
+      -webkit-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  -moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+    }
+    2% {
+      opacity:1;
+      -webkit-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  -moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+    }
+    4% {
+      opacity:0.1;
+      -webkit-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  -moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+    }
+    
+    8% {
+      opacity:1;
+      -webkit-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  -moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+    }
+    70% {
+      opacity:0.7;
+      -webkit-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  -moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+    }
+    100% {
+      opacity:1;
+      -webkit-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  -moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+    }
+}
+  
+@keyframes letter-flicker {
+    0% {
+      opacity:0.1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+    2% {
+      opacity:0.1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+    4% {
+      opacity:1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+    
+    
+    19% {
+      opacity:1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+    21% {
+      opacity:0.1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+    23% {
+      opacity:1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+    
+    80% {
+      opacity:1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+    83% {
+      opacity:0.4;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+    87% {
+      opacity:1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+}
+     
