@@ -1,0 +1,39 @@
+body {
+    background-color: orange;
+}
+#mobile {
+    display: block;
+}
+#tablet {
+    display: none;
+}
+/* width: 477 > 500px */
+@media (min-width: 500px) {
+    body {
+        background-color: blue;
+    }
+    #mobile {
+        display: none;
+    }
+    #tablet {
+        display: block;
+    }
+}
+@media (min-width: 769px) {
+    #tablet {
+        display: none;
+    }
+}
+@media (min-width: 1024px) {
+    body {
+        background-color: yellow;
+    }
+    h1 {
+        color: blue;
+    }
+}
+@media (max-width: 300px) {
+    body {
+        background-color: green;
+    }
+}
