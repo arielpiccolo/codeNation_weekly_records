@@ -1,16 +1,26 @@
+
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
-
+/* global text alingment, font and style, except overrited*/
 
 body {
     font-family: IBM, Plex, Mono;
-    font-style: normal;
+    font-size: 20px;
+    font-weight: lighter;
     text-align: left;
-    margin: ;
 }
 
+
+/* text aligment and padding for this areas   */
+.summary, .preamble, [class="main supporting"] {
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* top of the page*/
 
 header {
     background: url(/img/huntington.png);
@@ -20,34 +30,31 @@ header {
 }
 
 
-
-
 header[role="banner"] h1 {
     display: inline;   
     position: absolute;
     top: 5%;
     left: 34%;
-    font-size: 45px;
-    font-weight: 500;
+    font-size: 50px;
+    font-weight: 580;
     color: white;
     text-align: center;
-    text-shadow: 2px 4px black;
+    text-shadow: 4px 6px 5px rgb(0, 0, 0);
     font-family: Roboto;
 
 }
-
 
 
 header[role="banner"] h2 {
     padding-left: 70px;
     display: inline;
     position: absolute; 
-    top : 23%; 
-    left : 415px; 
+    top : 16%; 
+    left : 600px; 
     color : rgb(255, 255, 255); 
     text-align : center; 
-    font-size : 17px; 
-    font-weight: 200;
+    font-size : 20px; 
+    font-weight: 400;
     font-style: italic;
     font-family : Satisfy;
     background: url(/img/zen.svg);
@@ -55,3 +62,37 @@ header[role="banner"] h2 {
     background-repeat: no-repeat;
     
 }
+
+/* middle of the page  */
+
+.participation,.benefits {
+    background: url(/img/bamboo.png) rgb(116, 170, 61);
+}
+
+
+
+p[role="contentinfo"]  {
+    background-color: rgb(116, 170, 61);;
+    padding: 5%;
+    color: rgb(184, 184, 184);
+    
+
+}
+
+p[role="contentinfo"] a {
+    font-family: Satisfy;
+    font-size: 40px;
+    color: white;
+    font-size-adjust: unset;
+    text-decoration: none;
+    
+}
+
+/* BOTTOM OF PAGE */
+
+/* PROBLEMS
+1. cant get the top text centered
+2. who to set colour in between divs 'participation
+and benefits
+
+*/
