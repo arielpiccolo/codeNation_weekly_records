@@ -1,13 +1,19 @@
+/* allways target the parent element     
+padding 15px only one value will apply to all 4 sizes
+flex-wrap will try to fit all the 'children' on the screen
+flex-wrap only works horizontaly
+
+by default order is set to 0 to all 'children'
+*/
+
 * {box-sizing: border-box;}
 .box {
- color: white;
- font-size: 100px;
- font-family: 'Montserrat Alternates', sans-serif;
- text-align: center;
- padding:15px;
+color: white;
+font-size: 100px;
+font-family: 'Montserrat Alternates', sans-serif;
+text-align: center;
+padding:15px;
 }
-
-/* Colours for each box */
 .box1 { background:#eccc68;}
 .box2 { background:#ff6348;}
 .box3 { background:#ff7f50;}
@@ -19,8 +25,21 @@
 .box9 { background:#c56cf0;}
 .box10 { background:#18dcff;}
 
-.container{
+
+.container {
     display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-   }
+    border: 10px solid gold;
+    height: 100vh;
+    align-content: stretch;
+    flex-wrap: wrap;
+}
+
+
+.box{
+width: 33.333%;
+
+}
+
+.box2 {padding-bottom: 200px;}
+.box6 {padding-bottom: 0;}
+.box9 {padding-bottom: 50px;}
