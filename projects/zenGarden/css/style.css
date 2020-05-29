@@ -7,7 +7,7 @@
 
 body {
     font-family: IBM, Plex, Mono;
-    font-size: 20px;
+    font-size: 13px;
     font-weight: lighter;
     text-align: left;
 }
@@ -18,6 +18,7 @@ body {
     text-align: left;
     padding-left: 5%;
     padding-right: 5%;
+    
 }
 
 /* top of the page*/
@@ -26,7 +27,7 @@ header {
     background: url(/img/huntington.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 250px; 
+    height: 250px;
 }
 
 
@@ -39,7 +40,7 @@ header[role="banner"] h1 {
     font-weight: 580;
     color: white;
     text-align: center;
-    text-shadow: 4px 6px 5px rgb(0, 0, 0);
+    text-shadow: 4px 6px 5px black;
     font-family: Roboto;
 
 }
@@ -63,30 +64,62 @@ header[role="banner"] h2 {
     
 }
 
+
 /* middle of the page  */
 
-.participation,.benefits {
+.participation,.benefits { 
     background: url(/img/bamboo.png) rgb(116, 170, 61);
+    color: white;
+    border: 1px solid transparent;
+}
+
+.participation, .benefits h3, a{ 
+    color: black;
 }
 
 
+.participation p{ 
+    color: white;
+
+}
+
+
+
+.requirements {
+    padding-bottom: 2%;
+}
 
 p[role="contentinfo"]  {
     background-color: rgb(116, 170, 61);;
     padding: 5%;
     color: rgb(184, 184, 184);
+    font-weight: bold;
+    margin-top: 2.5%;
     
-
 }
 
 p[role="contentinfo"] a {
+    padding-top: 3%;
     font-family: Satisfy;
-    font-size: 40px;
+    font-size: 50px;
     color: white;
     font-size-adjust: unset;
     text-decoration: none;
+    font-weight: lighter;
     
 }
+
+
+.page-wrapper {
+    border: 2px solid gray;
+}
+
+.requirements h3 {
+    margin-top: 3%;
+}
+
+
+
 
 /* BOTTOM OF PAGE */
 
@@ -94,5 +127,5 @@ p[role="contentinfo"] a {
 1. cant get the top text centered
 2. who to set colour in between divs 'participation
 and benefits
-
+3. give margin last p in ' about ' and ' participation '
 */
