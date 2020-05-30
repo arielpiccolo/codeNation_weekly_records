@@ -1,0 +1,41 @@
+
+.square{
+    width: 100px;
+    height: 500px;
+    background-color: red;
+    transition: all 1s ease-in-out; 
+    border: 10px solid palevioletred;
+
+   }
+
+   .square:hover {
+       background-color: blue;
+       border-radius: 90px;
+       height: 500px;
+       width: 100%;
+       border:  10px solid yellowgreen;
+       
+
+   }
+
+
+
+
+
+   .square:hover{
+    border-radius: 50%;
+}
+@keyframes button {
+    0% {
+        background-color: blueviolet;
+        box-shadow: 6px 6px 0 darkgrey;
+    }
+    50% {
+        background-color: aqua;
+        box-shadow: 6px 6px 0 darkslategrey;
+    }
+    100% {
+        background-color: whitesmoke;
+        box-shadow: 6px 6px 0 black;
+    } 
+}
