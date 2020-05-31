@@ -126,9 +126,11 @@ header[role="banner"] h2 {
 
 /* ----------------------------------------------------*/
 
-.page-wrapper {
-    border: 2px solid gray;
+.wrapper {
+    height: 600px;
 }
+
+
 
 .requirements h3 {
     margin-top: 3%;
@@ -262,26 +264,29 @@ li, ul a {
 
 
 
-
+    
 #design-selection li:first-child {
+    border-bottom: 2px solid gray;
+    width: 100%;
     text-align: center;
     width: 750px;
     position: relative;
     top: -25px;
     margin-top: 20px;
     padding: 25px;
-    left: -45px
+    left: -20px
 
 }
 
 #design-selection li:nth-child(2){
-    text-align: center;
+    border-bottom: 2px solid gray;
+    width: 100%;
     right: -55px;
     float: right;
     width: 755px;
     padding: 25px;
     position: relative;
-    top: -100px;
+    top: -92px;
     
 }
 
@@ -391,62 +396,72 @@ li, ul a {
     border: 10px dotted brown;
 }
 
-*/
+
 
 .indicator {
     color: blue;
 }
 
-
+*/
 
 
 /* ----------------------------------------------------*/
 
-.view-css {
-    display: inline;
-    border: 5px dotted red;
+.view-css a, .view-css {
+    display: block;
+    position: relative;
+    border: 3px solid rebeccapurple;
+    text-align: center;
+    float: left;
+    margin-top: -2%;
+    margin-left: 24%;
 }
+.view-css {
+    border: 3px solid orange;
+    display:  inline;
 
+}
 
 
 
 #zen-resources {
-    border: 3px solid blue;
+    border: 5px dotted blue;
     display: block;
-    position: absolute;
+    position: relative;
     background: url(/img/bamboo.png) rgb(116, 170, 61);  
     width: 98.5%;
     height: 200px;
-    top: 206%;    
+    top: -350px;   
 }
 
+
+
+.zen-faq a, .zen-faq {
+    float: left;
+    border: 5px solid red;
+    display: block;
 }
 
-.zen-faq {
+
+.css-resources, .css-resources a  {
     display: inline;
-    border: 5px dotted red;
-}
-
-.css-resources a {
-    border: 5px dotted red;
-    display: inline;
+    border: 2px solid red;
+    
 }
 
 
-
-.zen-submit {
-    border: 5px dotted red;
-    display: inline;
-}
-
-
-
-
-.zen-translations {
+.zen-submit, .zen-submit a {
+    float: right;
     border: 5px dotted red;
     display: inline;
 }
 
+
+.zen-translations, .zen-translations a {
+    float: right;
+    border: 5px dotted red;
+    display: inline;
+}
 
 
 /* ----------------------------------------------------*/
