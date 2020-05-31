@@ -128,12 +128,12 @@ header[role="banner"] h2 {
 .requirements {
     padding-bottom: 2%;
 }
-/*
-.requirements {
-    background-color: rgb(116, 170, 61);
-    
+
+
+
+.select, .archives, .resources  {
+    color: transparent
 }
-*/
 
 footer {
     background-color: rgb(29, 71, 29);
@@ -144,23 +144,14 @@ footer {
     right: 5.6%;
 }
 
-/*
-i.fab.fa-github , i.fab.fa-accessible-icon, i.fab.fa-creative-commons, i.fab.fa-css3, i.fab.fa-html5, i.fab.fa-github{
 
-    font-size: 50px;
-    border: 2px solid red;
-    margin: 50px;
-    color: white;
-   
-}
-*/
 
 footer i.fab.fa-github  {
     display: block;
     position: absolute;
     font-size: 40px;
-    top: 20%;
-    left: 65%; 
+    top: 25%;
+    left: 60%; 
     color: white;
 }
 
@@ -168,8 +159,8 @@ i.fab.fa-accessible-icon  {
     display: block;
     position: absolute;
     font-size: 40px;
-    top: 20%;
-    left: 60%; 
+    top: 25%;
+    left: 55%; 
     color: white;
 }   
 
@@ -178,8 +169,8 @@ i.fab.fa-creative-commons  {
     position: absolute;
     font-size: 40px;
     border: 20px; 
-    top: 20%;
-    left: 55%; 
+    top: 25%;
+    left: 50%; 
     color: white;
 }
 
@@ -187,8 +178,8 @@ i.fab.fa-css3  {
     display: block;
     position: absolute;
     font-size: 40px;
-    top: 20%;
-    left: 50%; 
+    top: 25%;
+    left: 45%; 
     color: white;;
 }
 
@@ -197,11 +188,151 @@ i.fab.fa-html5  {
     display: block;
     position: absolute;
     font-size: 40px;
-    border: 2px solid red;
-    top: 20%;
-    left: 45%; 
+    top: 25%;
+    left: 40%; 
     color: white;
 }
+
+
+
+
+
+
+#design-archives {
+    position: relative;
+    border: 22px solid red;   
+    margin-top: 150px;
+}
+
+.archives {
+    border: 10px dotted blue
+}
+
+#design-selection {
+    border: 14px solid red;
+    display: block;
+    position: relative;
+    width: 1620px;
+    padding-bottom: 0px;
+    padding-top: 0;
+        
+}
+
+
+#design-selection ul {
+    border: 5px dotted blue;
+    margin-top: -50px;
+    margin-bottom: -4px;;
+}
+
+
+/* ----------------------------------------------------*/
+
+.next a {
+    position: relative;
+    display: inline;
+    color: red;
+    font-size: 2rem;
+    border: 10px dotted orange;
+
+
+}
+
+.viewall a {
+    position: relative;
+    color: blue;
+    font-size: 2rem;
+    display: inline;
+    border: 15px dotted aqua;
+}
+
+
+
+/* -----------------------------------------------------*/
+
+
+
+.next  {
+    border: 12px solid purple;
+        
+}
+
+.viewall {
+    border: 10px dotted brown;
+}
+
+
+li {
+    text-align: center;
+    border: 5px solid green;   
+    list-style: none;
+    padding: 20px;
+    margin-right: 50px;
+}
+
+
+.indicator {
+    color: blue;
+}
+
+
+
+/*---------------------------------------------*/
+
+
+
+
+
+ul {
+    border: 10px solid green;
+}
+
+#zen-resources {
+    border: 5px solid blue
+    
+}
+
+
+
+h3.resources {
+    border: 3px solid blue
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.view-css {
+    border: 5px dotted red;
+}
+
+.css-resources {
+    border: 5px dotted red;
+}
+
+.zen-faq {
+    border: 5px dotted red;
+}
+
+.zen-submit {
+    border: 5px dotted red;
+}
+
+.zen-translations {
+    border: 5px dotted red;
+}
+
+
+
+
+
 
 
 
