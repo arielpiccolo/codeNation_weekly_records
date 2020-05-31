@@ -225,6 +225,57 @@ i.fab.fa-html5  {
     margin-bottom: -4px;;
 }
 
+#design-selection li:first-child {
+    border-color: red;
+    text-align: left;
+    padding-right: 20%;
+    margin-right: 50%;
+}
+#design-selection li:nth-child(2){
+    border-color: blue;
+    text-align: right;
+    margin-left: 50%;
+}
+
+#design-selection li:nth-child(3) {
+    border-color: red;
+    text-align: left;
+    padding-right: 20%;
+    margin-right: 50%;
+}
+
+#design-selection li:nth-child(4){
+    border-color: blue;
+    text-align: right;
+    margin-left: 50%;
+}
+
+
+#design-selection li:nth-child(5) {
+    border-color: red;
+    text-align: left;
+    padding-right: 20%;
+    margin-right: 50%;
+}
+
+#design-selection li:nth-child(6){
+    border-color: blue;
+    text-align: right;
+    margin-left: 50%;
+}
+
+
+#design-selection li:nth-child(7) {
+    border-color: red;
+    text-align: left;
+    padding-right: 20%;
+    margin-right: 50%;
+}
+#design-selection li:nth-child(8){
+    border-color: blue;
+    text-align: right;
+    margin-left: 50%;
+}
 
 /* ----------------------------------------------------*/
 
@@ -247,8 +298,6 @@ i.fab.fa-html5  {
 }
 
 
-
-/* -----------------------------------------------------*/
 
 
 
@@ -288,7 +337,8 @@ ul {
 }
 
 #zen-resources {
-    border: 5px solid blue
+    border: 5px solid blue;
+    margin-bottom: -30;
     
 }
 
