@@ -5,6 +5,12 @@
 
 /* global text alingment, font and style, except overrited*/
 
+html {
+    height: 2060px;
+}
+
+
+
 body {
     font-family: IBM, Plex, Mono;
     font-size: 13px;
@@ -64,12 +70,12 @@ header[role="banner"] h2 {
     
 }
 
-
+/* ----------------------------------------------------*/
 
 /* middle of the page  */
 
 .participation , .benefits {
-    background: url(/img/bamboo.png) rgb(116, 170, 61);
+    background: url(/img/bamboo.png) rgb(116, 170, 61);  
     width: 100%;
     color: white;
     border: 1px solid transparent;
@@ -87,6 +93,8 @@ header[role="banner"] h2 {
 
 }
 
+
+/* ----------------------------------------------------*/
 
 [role="contentinfo"]  {
     display: block;
@@ -116,6 +124,7 @@ header[role="banner"] h2 {
     text-align: center;
 }
 
+/* ----------------------------------------------------*/
 
 .page-wrapper {
     border: 2px solid gray;
@@ -134,6 +143,9 @@ header[role="banner"] h2 {
 .select, .archives, .resources  {
     color: transparent
 }
+
+
+/* ----------------------------------------------------*/
 
 footer {
     background-color: rgb(29, 71, 29);
@@ -154,6 +166,12 @@ footer i.fab.fa-github  {
     left: 60%; 
     color: white;
 }
+
+
+
+/* ----------------------------------------------------*/
+
+
 
 i.fab.fa-accessible-icon  {
     display: block;
@@ -194,47 +212,58 @@ i.fab.fa-html5  {
 }
 
 
-
+/* ----------------------------------------------------*/
 
 
 
 #design-archives {
     position: relative;
-    border: 22px solid red;   
     margin-top: 150px;
 }
 
-.archives {
-    border: 10px dotted blue
-}
+
+/* ----------------------------------------------------*/
+
 
 #design-selection {
-    border: 14px solid red;
     display: block;
-    height: 400px;
+    height: 430px;
     width: 1620px;
     padding-bottom: 0px;
-    padding-top: 0;
-        
-}
-
-
-#design-selection ul {
-    height: 400px;
-    border: 5px dotted blue;
-    margin-top: -50px;
-    margin-bottom: -4px;;
+    padding-top: 0;    
 }
 
 
 
-
+/* ----------------------------------------------------*/
 
 /* LIST AFTER ICONS BELLOW */
 
 
+
+li {
+    text-align: center;
+    list-style: none;
+    padding: 20px;
+    margin-right: 50px;
+}
+
+
+li, ul a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+
+
+/* ----------------------------------------------------*/
+
+
+
+
+
 #design-selection li:first-child {
-    border:  5px solid;
     text-align: center;
     width: 750px;
     position: relative;
@@ -257,7 +286,6 @@ i.fab.fa-html5  {
 }
 
 #design-selection li:nth-child(3) {
-    border:  5px solid;
     text-align: center;
     width: 750px;
     position: relative;
@@ -279,7 +307,6 @@ i.fab.fa-html5  {
 
 
 #design-selection li:nth-child(5) {
-    border:  5px solid;
     text-align: center;
     width: 750px;
     position: relative;
@@ -302,7 +329,6 @@ i.fab.fa-html5  {
 
 
 #design-selection li:nth-child(7) {
-    border:  5px solid;
     text-align: center;
     width: 750px;
     position: relative;
@@ -328,51 +354,44 @@ i.fab.fa-html5  {
 
 
 
-
-
-
-
-
 .next a {
-    position: relative;
-    display: inline;
-    color: red;
-    font-size: 2rem;
-    border: 10px dotted orange;
-
-
+    text-align: center;
+  width: 750px;
+  position: relative;
+  top: -340px;
+  margin-top: 20px;
+  padding: 25px;
+  left: -445px  
 }
+
+
 
 .viewall a {
-    position: relative;
-    color: blue;
-    font-size: 2rem;
-    display: inline;
-    border: 15px dotted aqua;
+  text-align: center;
+  right: -55px;
+  float: right;
+  width: 755px;
+  padding: 25px;
+  position: relative;
+  top: -435px;
 }
 
 
+/* ----------------------------------------------------*/
 
-
-
+/*
 .next  {
-    border: 12px solid purple;
-        
+    display: inline;
+    border: 12px solid purple;      
 }
+
 
 .viewall {
+    display: inline;
     border: 10px dotted brown;
 }
 
-
-li {
-    text-align: center;
-    border: 5px solid green;   
-    list-style: none;
-    padding: 20px;
-    margin-right: 50px;
-}
-
+*/
 
 .indicator {
     color: blue;
@@ -380,62 +399,57 @@ li {
 
 
 
-/*---------------------------------------------*/
 
-
-
-
-
-ul {
-    border: 10px solid green;
-}
-
-#zen-resources {
-    border: 5px solid blue;
-    margin-bottom: -30;
-    
-}
-
-
-
-h3.resources {
-    border: 3px solid blue
-}
-
-
-
-
-
-
-
-
-
-
-
+/* ----------------------------------------------------*/
 
 .view-css {
+    display: inline;
     border: 5px dotted red;
 }
 
-.css-resources {
-    border: 5px dotted red;
+
+
+
+#zen-resources {
+    border: 3px solid blue;
+    display: block;
+    position: absolute;
+    background: url(/img/bamboo.png) rgb(116, 170, 61);  
+    width: 98.5%;
+    height: 200px;
+    top: 206%;    
+}
+
 }
 
 .zen-faq {
+    display: inline;
     border: 5px dotted red;
 }
+
+.css-resources a {
+    border: 5px dotted red;
+    display: inline;
+}
+
+
 
 .zen-submit {
     border: 5px dotted red;
+    display: inline;
 }
+
+
+
 
 .zen-translations {
     border: 5px dotted red;
+    display: inline;
 }
 
 
 
-
+/* ----------------------------------------------------*/
 
 
 
