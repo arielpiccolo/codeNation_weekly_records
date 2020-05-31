@@ -230,18 +230,17 @@ i.fab.fa-html5  {
 
 
 
-
-
+/* LIST AFTER ICONS BELLOW */
 
 
 #design-selection li:first-child {
+    border:  5px solid;
     text-align: center;
-    width: 800;
+    width: 750px;
     position: relative;
     top: -25px;
     margin-top: 20px;
-    padding: 30px;
-    
+    padding: 25px;
     left: -45px
 
 }
@@ -250,88 +249,79 @@ i.fab.fa-html5  {
     text-align: center;
     right: -55px;
     float: right;
-    width: 700px;
-    padding: 30px;
+    width: 755px;
+    padding: 25px;
     position: relative;
-    top: -110px;
+    top: -100px;
     
-
 }
 
-
 #design-selection li:nth-child(3) {
-    text-align: center;;
-    width: 800;
+    border:  5px solid;
+    text-align: center;
+    width: 750px;
     position: relative;
-    top: -25px;
-    margin-top: 20px;
-    padding: 30px;
+    top: -29px;
+    margin-top: 0px;
+    padding: 25px;
     left: -45px
-
 }
 
 #design-selection li:nth-child(4){
     text-align: center;
-    right: -50px;
+    right: -55px;
     float: right;
-    width: 700px;
+    width: 755px;
+    padding: 25px;
     position: relative;
-    top: -130px;
-    
-
+    top: -105px;
 }
 
 
 #design-selection li:nth-child(5) {
+    border:  5px solid;
     text-align: center;
-    width: 700;
+    width: 750px;
     position: relative;
-    top: -76px;
+    top: -54px;
     margin-top: 20px;
-    padding-right: 50px;
+    padding: 25px;
     left: -45px
-
 }
+
 
 #design-selection li:nth-child(6){
     text-align: center;
-    right: -50px;
+    right: -55px;
     float: right;
-    width: 700px;
+    width: 755px;
+    padding: 25px;
     position: relative;
-    top: -170px;
-    
-
+    top: -127px;
 }
+
 
 #design-selection li:nth-child(7) {
+    border:  5px solid;
     text-align: center;
-    width: 700;
+    width: 750px;
     position: relative;
-    top: -99px;
+    top: -79px;
     margin-top: 20px;
-    padding-right: 50px;
-    left: -45px;
-
+    padding: 25px;
+    left: -45px
 }
+
 
 #design-selection li:nth-child(8){
     text-align: center;
-    right: -50px;
+    right: -55px;
     float: right;
-    width: 700px;
+    width: 755px;
+    padding: 25px;
     position: relative;
-    top: -215px;
-    
-
+    top: -154px;
 }
-
-
-
-
-
-
-
 
 /* ----------------------------------------------------*/
 
