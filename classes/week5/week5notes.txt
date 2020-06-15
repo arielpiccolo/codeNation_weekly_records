@@ -1,0 +1,27 @@
+
+
+//! create a new react app
+npx create-react-app my_app
+//! to start the new app
+npm start
+
+
+! in json format files "keys" have double quotes
+! tha main working folder is src folder inside the public folder
+
+
+
+import React from "react";
+import "./App.css";
+
+class App extends React.Component {   //! this is a Component.
+  render() {
+    return (
+      <h1> My first react app </h1>)  <- this is not HTML , is *JSX
+  }
+}
+
+export default App;
+
+
+
