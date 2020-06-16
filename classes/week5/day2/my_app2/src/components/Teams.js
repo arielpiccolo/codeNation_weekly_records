@@ -1,18 +1,13 @@
 import React from 'react'
 
-/**
- *  {props} is used to pass data to another file, and {props.whatever} to inject data from another file
- *  
- */
 
-function Teams(props) {
+function People(props) {
     return (
         <div>
-            <h2>Well done  {props.name} , you finished in {props.position} </h2>
-
+            <h2>People names are:{props.name} {props.last}</h2>    
         </div>
     )
 }
 
-export default Teams
+export default People
 
