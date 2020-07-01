@@ -1,0 +1,18 @@
+create folder
+
+run npm init -y
+
+then install dependencies
+
+then add start script into json file
+
+the import and init express
+
+import hbs and path
+
+then set a variable to the folder location
+
+then set app.set to the folder view
+
+
+

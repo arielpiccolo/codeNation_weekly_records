@@ -1,0 +1,25 @@
+installing a new project or app
+
+mkdir express-server
+cd express-server
+
+
+npm init -y
+
+
+npm i express
+touch index.js index.html
+
+we use req.query can be used to grab things from the url
+
+=================
+
+npm in
+
+creates a package.json file and initiate the app
+json javascript object notation
+=================
+
+
+
+nodemon package to auto reload

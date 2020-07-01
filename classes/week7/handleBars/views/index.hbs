@@ -1,0 +1,36 @@
+{{!-- this is normal standard html --}}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    {{!-- //the > bellow represents partial --}}
+    {{>nav}}
+
+    <h1>Name: {{ name }} </h1>
+
+    {{!-- this form will capture data --}}
+    <form action="/results" method="POST">
+        <label for="userName">The user name</label>
+        <input id="userName" type="text" name="userName" />
+        <br>
+        <label for="userEmail">The user email</label>
+        <input id="userEmail" type="text" name="userEmail" />
+        {{!-- submit will send the data into the browser page(results) --}}
+        <button type="submit">Register</button>
+    </form>
+
+
+
+
+</body>
+
+
+</html>
