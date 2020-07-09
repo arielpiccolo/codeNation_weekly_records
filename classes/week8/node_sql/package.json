@@ -1,5 +1,5 @@
 {
-  "name": "chuck_norris_api",
+  "name": "node_sql",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,7 +13,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "hbs": "^4.1.1",
-    "nodemon": "^2.0.4",
-    "request": "^2.88.2"
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.4"
   }
 }
