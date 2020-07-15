@@ -1,0 +1,17 @@
+create a new schema(or data-base)
+
+
+CREATE TABLE users(
+	id INT AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(100) NOT NULL,
+    age TINYINT NOT NULL, 
+    city VARCHAR(100)
+);
+
+
+select * from users where first_name like "s%";   or "%u%";
+INSERT INTO users(first_name, age, city) VALUE("Stefan", 30, "Chester");
+SELECT first_name, city FROM users;
+SELECT * FROM users;
+
+
