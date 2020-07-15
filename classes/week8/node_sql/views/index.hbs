@@ -12,12 +12,16 @@
 
     <h1>Inside index.hbs</h1>
 
-    <h1>Employees</h1>
+    <h1>Classic Models</h1>
 
     <ul>
-        {{#each employee}}
-        <li>{{this.first_name}}</li>
-        {{#each}}
+        {{!-- each is like a loop --}}
+        {{#each users}}
+        {{!-- targeting info from the classic models database --}}
+        <li>{{this.first_name}} {{this.age}} {{this.city}}</li>
+
+        {{/each}}
+
     </ul>
 
 
